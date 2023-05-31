@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+:root{
+    --light-red: hsl(0, 100%, 67%);
+    --light-red-transparent: hsla(0, 100%, 67%, 0.1);
+    --orange-yellow: hsl(39, 100%, 56%);
+    --orange-yellow-transparent: hsla(39, 100%, 56%, 0.1);
+    --cobalt-blue: hsl(234, 85%, 45%);
+    --green-teal: hsl(166, 100%, 37%);
+    --green-teal-transparent: hsla(166, 100%, 37%, 0.1);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-grey-blue: hsl(224, 30%, 27%);
+    --dark-grey-blue-transparent: hsla(224, 30%, 27%, 0.1);
+    --dark-grey-blue-transparent-2: hsla(224, 30%, 27%, 0.4);
+}
+
+
+body{
+    background-color: cornsilk;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 7rem;
+    box-shadow:  62px 42px 86px -31px rgb(202, 202, 202);
+
+}
+
+.first-container{
+    background: linear-gradient(0deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%) 100%);
+    border-radius: 15px;
+    max-width: 250px;
+    height: 350px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+}
+
+.first-container-header{
+    color: var(--light-lavender);
+    font-weight: 500;
+}
+
+.circle{
+   padding: 30px;
+   width: 150px;
+   height: 150px;
+   margin: 0px auto;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   border-radius: 100%;
+   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, hsla(241, 72%, 46%, 0) 0%, hsla(256, 72%, 46%, 1) 100%);
+}
+
+.circle h1{
+   color: white;
+   font-size: 2.8rem;
+}
+
+.circle p{
+    color: var(--light-lavender);
+    font-size: 12px;
+}
+
+h2{
+    color: white;
+    line-height: 2;
+}
+
+.first-container-description{
+    color: var(--light-lavender);
+    font-size: 13px;
+}
+
+.tab-container{
+    padding: 20px 0px 20px 0px;
+}
+
+.second-container{
+    padding: 25px;
+    padding-left: 45px;
+    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 280px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    /* box-shadow:62px 42px 86px -31px rgba(48,59,90,0.75); */
+}
+
+.second-container-header{
+    font-weight: 700;
+    color: var(--dark-grey-blue);
+}
+
+button{
+    color: white;
+    background-color: var(--dark-grey-blue);
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: 0px;
+}
+
+
+/* tab styling */
+.tab{
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab div span{
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.tab div i{
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.tab-1{
+    background-color:  var(--light-red-transparent);
+}
+
+.tab-1 div i{
+    color: var(--light-red);
+}
+
+.tab-2 div i{
+    color: var(--orange-yellow);
+}
+
+.tab-3 div i{
+    color: var(--green-teal);
+}
+
+.tab-4 div i{
+    color: var(--dark-grey-blue);
+}
+
+.tab-2{
+    background-color: var(--orange-yellow-transparent);
+    margin-top: 10px;
+}
+
+.tab-3{
+    background-color: var(--green-teal-transparent);
+    margin-top: 10px;
+}
+
+.tab-4{
+    background-color: var(--dark-grey-blue-transparent);
+    margin-top: 10px;
+}
+
+.tab-1 div span{
+    color: var(--light-red);
+}
+
+.tab-2 div span{
+    color: var(--orange-yellow);
+}
+
+.tab-3 div span{
+    color: var(--green-teal);
+}
+
+.tab-4 div span{
+    color: var(--dark-grey-blue);
+}
+
+.score-container{
+    display: flex;
+}
+
+.score{
+    color: var(--dark-grey-blue);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.percentage{
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--dark-grey-blue-transparent-2);
+}
+
+/* tab styling */
