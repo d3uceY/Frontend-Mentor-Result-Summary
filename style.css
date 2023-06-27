@@ -32,14 +32,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
+}
+
+.attribution p{
+    color: var(--cobalt-blue);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.attribution span{
+    color: var(--cobalt-blue);
+    text-transform: capitalize;
 }
 
 .container{
     display: flex;
     margin: 0px auto;
     position: relative;
-    margin-top: 7rem;
     box-shadow:  62px 42px 86px -31px rgb(202, 202, 202);
 
 }
